@@ -3,6 +3,7 @@ const tareas = [];
 function mostrarTareas() {
     let lista = document.querySelector("#lista");
     lista.innerHTML = "";
+    
     for (let tarea of tareas) {
         const nuevaTarea = document.createElement("li");
         nuevaTarea.textContent = tarea;
